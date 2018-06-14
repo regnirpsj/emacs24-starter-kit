@@ -4,4 +4,3 @@
 
 ;; default packages to load
 (starter-kit-load "latex")
-
