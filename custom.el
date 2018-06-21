@@ -12,10 +12,12 @@
     ("BIBINPUTS" "TEXBIB" "/home/jsd/Documents/LaTeX/bibliography//")))
  '(safe-local-variable-values
    (quote
-    ((TeX-master . \.\./main_lecture)
+    ((TeX-master . \.\./\.\./\.\./main_lecture)
+     (TeX-master . \.\./main_lecture)
      (TeX-master . \.\./\.\./main_lecture))))
  '(show-paren-mode t)
  '(size-indication-mode t)
+ '(tool-bar-mode nil)
  '(tool-bar-position (quote left)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
