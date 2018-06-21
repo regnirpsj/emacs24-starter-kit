@@ -40,7 +40,8 @@ mode. Most versions of Ghostscript nowadays in use should work fine
 
 #+begin_src emacs-lisp
 (when (locate-library "auctex")
-  (setq TeX-auto-save t)
+  (setq TeX-auto-save nil)
+  (setq TeX-auto-private "~/.emacs.d/auto-save-list")
   (setq TeX-parse-self t)
 
   (add-hook 'LaTeX-mode-hook 'auto-fill-mode)
